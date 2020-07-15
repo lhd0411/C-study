@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+
+	int height;
+	scanf("%d",&height);
+	int foot=height/30.48;
+	int inch=(height-foot*30.48)/30.48*12;
+	printf("%d %d\n",foot,inch);
+return 0;
+	
+	
+}
+
+
+
