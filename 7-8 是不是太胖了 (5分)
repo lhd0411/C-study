@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+int H;
+double L;
+scanf("%d",&H);
+L=(H-100)*0.9*2;
+printf("%0.1f\n",L);
+return 0;
+	
+	
+}
