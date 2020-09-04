@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+	int one;
+	int two;
+	int five;
+	int number=10;
+	//scanf("%d",&number);
+	for(one=1;one<number*10;one++){
+		for(two=1;two<number*5;two++){
+			for(five=1;five<number*2;five++){
+				if(one+two*2+five*5==number*10){
+					printf("%d %d %d %d\n",one,two,five,number);
+				}	
+			}
+		}
+	}
+	return 0;
+}
