@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+int number;
+int x;
+double y=0.0;
+scanf("%d",&number);
+for(x=number;x>=1;x--){
+	y=y+1.0/x;
+}
+
+
+printf("%f\n",y);
+	
+}
