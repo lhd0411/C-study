@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+	int number;
+	int x;
+	int y=0;
+	int cut=0;
+	scanf("%d",&number);
+	while(number>=1){
+		cut++;
+		x=number%10;
+		number=number/10;
+		if((cut+x)%2==0){
+			y=y+pow(2,cut-1);
+		}
+	}
+	printf("%d\n",y);
+	return 0;
+}
