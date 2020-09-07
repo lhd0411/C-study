@@ -1,0 +1,38 @@
+#include <stdio.h>
+int main()
+{
+ 	int M;
+	int N;
+	int t=0;
+	int i;
+	int j;
+	int isprime=1;
+	int sum=0;
+
+	scanf("%d %d",&M,&N);
+	j=N;
+	for(i=2;M<j;j--){
+		i=2;
+	
+	
+      for(;i<j;i++){
+		if(j%i==0){
+			isprime=0;
+			break;
+		}else{
+			isprime=1;
+		}
+	
+		
+	}
+		if(isprime==1){
+			t++;
+			sum=sum+j;
+		}
+	}
+		printf("%d %d",t,sum);
+		
+		}
+	
+	
+
