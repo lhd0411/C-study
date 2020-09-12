@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+int a=16;
+int b=19;
+int cunt=0;
+int t;
+int j=0;
+//scanf("%d/%d",&a,&b);
+printf("0.");
+while(a%b!=0){
+    j=10*a/b;
+	printf("%d",j);
+	t=10*a%b;
+	a=t;
+	cunt++;
+	if(cunt==200){
+		break;
+	}
+	
+}
+printf("\n");
+	
+}
