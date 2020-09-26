@@ -1,0 +1,32 @@
+#include<stdio.h>
+int a,b;
+int main(){
+	int number[101]={0};
+	int i;
+	for(i=0;i<2;i++){
+		do
+		{
+			scanf("%d %d",&a,&b);
+			number[a]+=b;
+		}while(a);
+	}
+	for(i=101;i>=2;i--){
+		if(number[i]!=0){
+		
+		
+		printf("%dx%d+",number[i],i);
+	}
+	
+	}
+	
+		
+	if(number[1]!=0){
+		printf("%dx+",number[1]);
+	}
+	if(number[0]!=0){
+		printf("%d",number[0]);
+	}
+	
+		
+	
+}
